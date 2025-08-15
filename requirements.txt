@@ -1,5 +1,6 @@
 streamlit
 numpy
+python==3.9
 pandas
 torch
 regex
