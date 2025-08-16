@@ -1,14 +1,13 @@
 streamlit==1.48.1
-numpy==1.26.4
+numpy==2.2.6
 pandas==2.3.1
-scikit-learn==1.5.2
-torch==2.8.0+cpu
-torchvision==0.23.0+cpu
-torchaudio==2.8.0+cpu
-spacy==3.8.7
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
+torch==2.8.0
 transformers==4.55.2
-joblib==1.5.1
-wordfreq==3.1.1
+spacy==3.8.7
+scikit-learn==1.7.1
 textblob==0.19.0
 textstat==0.7.8
+wordfreq==3.1.1
+joblib==1.5.1
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz
+
