@@ -18,7 +18,7 @@ import joblib
 @st.cache_resource
 def load_resources():
     nlp = spacy.load("en_core_web_sm")
-    rf_model = joblib.load(r"D:\portfolio_of_data_science\contentdetection\random_forest_ai_human.pkl")
+    rf_model = joblib.load("random_forest_ai_human.pkl")
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
     bert_model = BertModel.from_pretrained("bert-base-uncased")
     return nlp, rf_model, tokenizer, bert_model
@@ -107,3 +107,4 @@ if st.button("Analyze Text"):
         st.table(pd.DataFrame(list(feature_dict.items()), columns=["Feature", "Value"]))
     else:
         st.warning("Please enter some text to analyze.")
+
