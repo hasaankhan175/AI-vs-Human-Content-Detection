@@ -1,6 +1,4 @@
-Here’s a professional **README.md** draft for your repo:
 
-```markdown
 # 🧠 AI vs Human Content Detection
 
 This project focuses on building a **machine learning model** that detects whether a given text is **AI-generated** or **human-written**.  
@@ -18,30 +16,12 @@ It includes a **Streamlit web application** for interactive predictions, along w
 - Supports custom text input
 - Model trained on labeled dataset for accuracy
 
----
-
-## 📂 Repository Structure
-```
-
-AI-vs-Human-Content-Detection/
-│── app\_st.py                # Streamlit app script
-│── model.pkl                # Trained ML model
-│── requirements.txt         # Python dependencies
-│── README.md                # Project documentation
-│── data/                    # Dataset (if included)
-│── notebooks/               # Jupyter notebooks for EDA & training
-
-````
-
----
-
 ## ⚙️ Installation
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/hasaankhan175/AI-vs-Human-Content-Detection.git
    cd AI-vs-Human-Content-Detection
-````
 
 2. Create a virtual environment (recommended):
 
@@ -78,18 +58,6 @@ Then open in browser:
 * **Algorithm**: Decision Tree / Random Forest / Ensemble (configurable)
 * **Evaluation**: Accuracy, Precision, Recall
 
----
-
-## 📸 Screenshots & Demo
-
-The repo includes pictures & videos showcasing:
-
-* **Code structure**
-* **Model training**
-* **Web app interface**
-
----
-
 ## 🌐 Deployment
 
 The app is deployed on **Streamlit Cloud**:
@@ -101,25 +69,6 @@ The app is deployed on **Streamlit Cloud**:
 
 **Hasaan Khan**
 📌 Data Scientist | ML Engineer | NLP Enthusiast
-🔗 [LinkedIn](https://www.linkedin.com/in/hasaankhan175/)
+🔗 [LinkedIn]([https://www.linkedin.com/in/hasaankhan175/](https://www.linkedin.com/in/hasaan-khan-422249289/))
 
 ---
-
-## ⭐ Contributing
-
-Contributions are welcome!
-
-* Fork this repo
-* Create a new branch
-* Submit a pull request
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
-```
-
-Would you like me to also **add badges** (Python version, Streamlit, scikit-learn, MIT License) at the top for a more professional look?
-```
